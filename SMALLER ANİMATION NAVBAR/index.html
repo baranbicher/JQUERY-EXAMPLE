@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Değişen Animasyonlu Navbar</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        text-decoration: none;
+      }
+      .buyuk {
+        display: flex;
+        height: 150px;
+        background-color: gray;
+        position: fixed;
+        width: 100%;
+        transition: 0.5s ease;
+      }
+      .kucuk {
+        display: flex;
+        height: 75px;
+        background-color: royalblue;
+        position: fixed;
+        width: 100%;
+        transition: 0.5s ease;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+      }
+
+      li a {
+        color: white;
+        font-size: 18px;
+        margin-right: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="buyuk" id="kontrol_et">
+      <ul>
+        <li><a href="#">Anasayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">İletişim</a></li>
+        <li><a href="#">Ürünler</a></li>
+        <li><a href="#">Tarihçe</a></li>
+      </ul>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>

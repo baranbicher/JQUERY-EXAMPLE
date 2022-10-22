@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+body {
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  width: 1000px;
+  height: 100vh;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: center;
+}
+fieldset {
+  padding: 20px;
+  border-color: red;
+  border-radius: 20px;
+}
+legend {
+  color: red;
+  font-size: 18px;
+}
+table {
+  font-size: 22px;
+  width: 1000px;
+}
+table input {
+  height: 20px;
+  width: 250px;
+}
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: steelblue;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.gizli {
+  display: none;
+}
+.zayif {
+  background-color: red;
+  color: white;
+  display: block !important;
+}
+.orta {
+  background-color: yellow;
+  color: black;
+  display: block;
+}
+.guclu {
+  background-color: green;
+  color: black;
+  display: block;
+}
+.goster {
+  display: block;
+}

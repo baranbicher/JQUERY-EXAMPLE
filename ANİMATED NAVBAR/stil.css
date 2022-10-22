@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: antiquewhite;
+  height: 2000px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ana_cerceve {
+  width: 600px;
+  margin: 0px auto;
+}
+img {
+  display: block;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  display: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  height: 50px;
+  line-height: 50px;
+  width: 99px;
+  display: block;
+  border-right: 1px solid white;
+  background-color: chocolate;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1px;
+  padding: 0px;
+}
+.icerik {
+  height: 800px;
+  width: 500px;
+  background-color: cadetblue;
+  padding: 50px;
+}
+.icerik h2 {
+  text-align: center;
+}
+.icerik p {
+  text-align: justify;
+}
+.icerik p img {
+  height: 300px;
+  width: 500px;
+}

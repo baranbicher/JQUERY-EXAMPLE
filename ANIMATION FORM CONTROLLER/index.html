@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery Form Kontrolü</title>
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <fieldset>
+          <legend>Jquery Form Kontrol Uygulaması</legend>
+          <table cellspacing="20" cellpadding="30">
+            <tr>
+              <td>
+                <label for="">Kullanıcı Adı:</label>
+              </td>
+              <td colspan="3">
+                <input type="text" id="k_adi" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Şifre:</label>
+              </td>
+              <td>
+                <input type="password" id="sifre" />
+              </td>
+              <td id="durum" class="gizli">
+                Şifre Durum
+              </td>
+              <td id="mesaj" class="gizli">
+                Mesaj Ver
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Şifre Tekrar:</label>
+              </td>
+              <td>
+                <input type="password" id="sifre_tekrar" />
+              </td>
+              <td id="mesaj" colspan="2" class="gizli">
+                Mesaj Ver
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Özgeçmiş:</label>
+              </td>
+              <td colspan="3">
+                <textarea
+                  class="gecmis"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="3">
+                <button type="button">Gönder</button>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+  <script src="jquery.js"></script>
+  <script src="custom.js"></script>
+</html>

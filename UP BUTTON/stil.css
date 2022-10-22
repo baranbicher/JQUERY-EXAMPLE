@@ -1,0 +1,26 @@
+body {
+  height: 2500px;
+  background-color: cadetblue;
+}
+a {
+  height: 80px;
+  width: 80px;
+  background-image: url(ikoni-scrollup.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: none;
+  text-decoration: none;
+  font-size: 100px;
+  text-align: center;
+  line-height: 150px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  transform: rotate(180deg);
+  transition: all 0.5s ease;
+}
+a:hover {
+  transform: rotate(0deg);
+}
